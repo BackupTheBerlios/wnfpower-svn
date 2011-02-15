@@ -1,0 +1,117 @@
+object Form1: TForm1
+  Left = 783
+  Height = 383
+  Top = 309
+  Width = 400
+  ActiveControl = Panel1
+  Caption = 'Form1'
+  ClientHeight = 359
+  ClientWidth = 400
+  Menu = mm
+  OnCreate = FormCreate
+  ShowHint = True
+  LCLVersion = '0.9.28.2'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 400
+    Align = alTop
+    Caption = 'Panel1'
+    TabOrder = 0
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 206
+    Top = 50
+    Width = 400
+    Align = alTop
+    Caption = 'Panel3'
+    ClientHeight = 206
+    ClientWidth = 400
+    TabOrder = 1
+    object Button1: TButton
+      Left = 8
+      Height = 25
+      Top = 6
+      Width = 75
+      Action = ax_1
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 8
+      Height = 25
+      Top = 38
+      Width = 75
+      Action = ax_2
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 8
+      Height = 25
+      Top = 70
+      Width = 75
+      Action = ax_3
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 8
+      Height = 25
+      Top = 102
+      Width = 75
+      Action = ax_4
+      TabOrder = 3
+    end
+    object Button5: TButton
+      Left = 8
+      Height = 25
+      Top = 134
+      Width = 75
+      Action = ax_5
+      OnMouseEnter = Button5MouseEnter
+      TabOrder = 4
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 20
+    Top = 339
+    Width = 400
+    Panels = <>
+  end
+  object ax: TActionList
+    left = 40
+    top = 248
+    object ax_1: TAction
+      Caption = 'ax_1'
+      OnExecute = ax_Execute
+    end
+    object ax_2: TAction
+      Caption = 'ax_2'
+      OnExecute = ax_Execute
+    end
+    object ax_3: TAction
+      Caption = 'ax_3'
+      OnExecute = ax_Execute
+    end
+    object ax_4: TAction
+      Caption = 'ax_4'
+      OnExecute = ax_Execute
+    end
+    object ax_5: TAction
+      Caption = 'ax_5'
+      OnExecute = ax_Execute
+    end
+  end
+  object mm: TMainMenu
+    left = 119
+    top = 212
+    object MenuItem1: TMenuItem
+      Caption = 'Datei'
+      object MenuItem2: TMenuItem
+        Caption = 'Speichern'
+        OnClick = MenuItem2Click
+      end
+    end
+  end
+end

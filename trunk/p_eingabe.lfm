@@ -1,0 +1,136 @@
+object am_Eingabe: Tam_Eingabe
+  Left = 712
+  Height = 251
+  Top = 275
+  Width = 446
+  ActiveControl = ed_Caption
+  Caption = 'am_Eingabe'
+  ClientHeight = 251
+  ClientWidth = 446
+  LCLVersion = '0.9.28.2'
+  object gb_Caption: TGroupBox
+    Left = 0
+    Height = 49
+    Top = 0
+    Width = 446
+    Align = alTop
+    Caption = 'Caption'
+    ClientHeight = 31
+    ClientWidth = 442
+    TabOrder = 0
+    object ed_Caption: TEdit
+      Left = 6
+      Height = 24
+      Top = 4
+      Width = 384
+      TabOrder = 0
+      Text = 'ed_Caption'
+    end
+  end
+  object gb_Hint: TGroupBox
+    Left = 0
+    Height = 49
+    Top = 49
+    Width = 446
+    Align = alTop
+    Caption = 'Hint'
+    ClientHeight = 31
+    ClientWidth = 442
+    TabOrder = 1
+    object ed_Hint: TEdit
+      Left = 6
+      Height = 24
+      Top = 4
+      Width = 384
+      TabOrder = 0
+    end
+  end
+  object gb_Kommando: TGroupBox
+    Left = 0
+    Height = 49
+    Top = 98
+    Width = 446
+    Align = alTop
+    Caption = 'Kommando'
+    ClientHeight = 31
+    ClientWidth = 442
+    TabOrder = 2
+    object ed_Kommando: TEdit
+      Left = 6
+      Height = 24
+      Top = 4
+      Width = 384
+      TabOrder = 0
+      Text = 'ed_Caption'
+    end
+  end
+  object gb_Parameter: TGroupBox
+    Left = 0
+    Height = 49
+    Top = 147
+    Width = 446
+    Align = alTop
+    Caption = 'Parameter'
+    ClientHeight = 31
+    ClientWidth = 442
+    TabOrder = 3
+    object ed_Parameter: TEdit
+      Left = 6
+      Height = 24
+      Top = 4
+      Width = 384
+      TabOrder = 0
+      Text = 'ed_Caption'
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 201
+    Width = 446
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 446
+    TabOrder = 4
+    object Panel2: TPanel
+      Left = 233
+      Height = 50
+      Top = 0
+      Width = 213
+      Align = alRight
+      BevelOuter = bvNone
+      ClientHeight = 50
+      ClientWidth = 213
+      TabOrder = 0
+      object Button1: TButton
+        Left = 8
+        Height = 25
+        Top = 13
+        Width = 88
+        Action = ax_OK
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 112
+        Height = 25
+        Top = 13
+        Width = 88
+        Action = ax_Cancel
+        TabOrder = 1
+      end
+    end
+  end
+  object ActionList1: TActionList
+    left = 116
+    top = 216
+    object ax_OK: TAction
+      Caption = 'Speichern'
+      OnExecute = ax_OKExecute
+    end
+    object ax_Cancel: TAction
+      Caption = 'Abbruch'
+      OnExecute = ax_CancelExecute
+    end
+  end
+end
