@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="wnfpower.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wnfpower"/>
+        <CursorPos X="4" Y="16"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="p_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="p_main"/>
+        <CursorPos X="20" Y="93"/>
+        <TopLine Value="73"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="p_const.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="p_const"/>
+        <CursorPos X="31" Y="15"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../wnftools/wnf_linux.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wnf_linux"/>
+        <CursorPos X="26" Y="47"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <CursorPos X="23" Y="70"/>
+        <TopLine Value="40"/>
+        <UsageCount Value="12"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/include/fileutil.inc"/>
+        <CursorPos X="10" Y="1106"/>
+        <TopLine Value="1103"/>
+        <UsageCount Value="12"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="p_eingabe.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="am_Eingabe"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="p_eingabe"/>
+        <CursorPos X="5" Y="79"/>
+        <TopLine Value="55"/>
+        <UsageCount Value="30"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="p_main.lrs"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../usr/lib/lazarus/0.9.28.2/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="3" Y="628"/>
+        <TopLine Value="606"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="p_main.lfm"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="21" HistoryIndex="20">
+      <Position1>
+        <Filename Value="../wnftools/wnf_linux.pas"/>
+        <Caret Line="49" Column="24" TopLine="13"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../wnftools/wnf_linux.pas"/>
+        <Caret Line="14" Column="41" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="82" Column="10" TopLine="55"/>
+      </Position3>
+      <Position4>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="38" Column="26" TopLine="13"/>
+      </Position4>
+      <Position5>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="108" Column="1" TopLine="87"/>
+      </Position5>
+      <Position6>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="109" Column="1" TopLine="87"/>
+      </Position6>
+      <Position7>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="110" Column="1" TopLine="87"/>
+      </Position7>
+      <Position8>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="117" Column="1" TopLine="87"/>
+      </Position8>
+      <Position9>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="127" Column="33" TopLine="25"/>
+      </Position9>
+      <Position10>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="58" Column="1" TopLine="37"/>
+      </Position10>
+      <Position11>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="102" Column="41" TopLine="98"/>
+      </Position11>
+      <Position12>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="69" Column="21" TopLine="49"/>
+      </Position12>
+      <Position13>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="81" Column="40" TopLine="54"/>
+      </Position13>
+      <Position14>
+        <Filename Value="wnfpower.lpr"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position14>
+      <Position15>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="15" Column="21" TopLine="1"/>
+      </Position15>
+      <Position16>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="113" Column="5" TopLine="82"/>
+      </Position16>
+      <Position17>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="42" Column="39" TopLine="18"/>
+      </Position17>
+      <Position18>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="120" Column="1" TopLine="83"/>
+      </Position18>
+      <Position19>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="40" Column="8" TopLine="28"/>
+      </Position19>
+      <Position20>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="41" Column="5" TopLine="19"/>
+      </Position20>
+      <Position21>
+        <Filename Value="p_main.pas"/>
+        <Caret Line="50" Column="1" TopLine="12"/>
+      </Position21>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)/"/>
+      <OtherUnitFiles Value="/home/wnf/lazarus/wnftools/"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

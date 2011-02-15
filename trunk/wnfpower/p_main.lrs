@@ -1,0 +1,28 @@
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#15#3#6'Height'#3#127#1#3'Top'#3'5'#1#5'Wi'
+  +'dth'#3#144#1#13'ActiveControl'#7#6'Panel1'#7'Caption'#6#5'Form1'#12'ClientH'
+  +'eight'#3'g'#1#11'ClientWidth'#3#144#1#4'Menu'#7#2'mm'#8'OnCreate'#7#10'Form'
+  +'Create'#8'ShowHint'#9#10'LCLVersion'#6#8'0.9.28.2'#0#6'TPanel'#6'Panel1'#4
+  +'Left'#2#0#6'Height'#2'2'#3'Top'#2#0#5'Width'#3#144#1#5'Align'#7#5'alTop'#7
+  +'Caption'#6#6'Panel1'#8'TabOrder'#2#0#0#0#6'TPanel'#6'Panel3'#4'Left'#2#0#6
+  +'Height'#3#206#0#3'Top'#2'2'#5'Width'#3#144#1#5'Align'#7#5'alTop'#7'Caption'
+  +#6#6'Panel3'#12'ClientHeight'#3#206#0#11'ClientWidth'#3#144#1#8'TabOrder'#2#1
+  +#0#7'TButton'#7'Button1'#4'Left'#2#8#6'Height'#2#25#3'Top'#2#6#5'Width'#2'K'
+  +#6'Action'#7#4'ax_1'#8'TabOrder'#2#0#0#0#7'TButton'#7'Button2'#4'Left'#2#8#6
+  +'Height'#2#25#3'Top'#2'&'#5'Width'#2'K'#6'Action'#7#4'ax_2'#8'TabOrder'#2#1#0
+  +#0#7'TButton'#7'Button3'#4'Left'#2#8#6'Height'#2#25#3'Top'#2'F'#5'Width'#2'K'
+  +#6'Action'#7#4'ax_3'#8'TabOrder'#2#2#0#0#7'TButton'#7'Button4'#4'Left'#2#8#6
+  +'Height'#2#25#3'Top'#2'f'#5'Width'#2'K'#6'Action'#7#4'ax_4'#8'TabOrder'#2#3#0
+  +#0#7'TButton'#7'Button5'#4'Left'#2#8#6'Height'#2#25#3'Top'#3#134#0#5'Width'#2
+  +'K'#6'Action'#7#4'ax_5'#12'OnMouseEnter'#7#17'Button5MouseEnter'#8'TabOrder'
+  +#2#4#0#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0#6'Height'#2#20#3'Top'#3
+  +'S'#1#5'Width'#3#144#1#6'Panels'#14#0#0#0#11'TActionList'#2'ax'#4'left'#2'('
+  +#3'top'#3#248#0#0#7'TAction'#4'ax_1'#7'Caption'#6#4'ax_1'#9'OnExecute'#7#10
+  +'ax_Execute'#0#0#7'TAction'#4'ax_2'#7'Caption'#6#4'ax_2'#9'OnExecute'#7#10'a'
+  +'x_Execute'#0#0#7'TAction'#4'ax_3'#7'Caption'#6#4'ax_3'#9'OnExecute'#7#10'ax'
+  +'_Execute'#0#0#7'TAction'#4'ax_4'#7'Caption'#6#4'ax_4'#9'OnExecute'#7#10'ax_'
+  +'Execute'#0#0#7'TAction'#4'ax_5'#7'Caption'#6#4'ax_5'#9'OnExecute'#7#10'ax_E'
+  +'xecute'#0#0#0#9'TMainMenu'#2'mm'#4'left'#2'w'#3'top'#3#212#0#0#9'TMenuItem'
+  +#9'MenuItem1'#7'Caption'#6#5'Datei'#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6
+  +#9'Speichern'#7'OnClick'#7#14'MenuItem2Click'#0#0#0#0#0
+]);
